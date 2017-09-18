@@ -7,10 +7,9 @@ tags: [IT,Hibernate]
 description: 项目采用SpringBoot框架，数据库访问采用JPA。新增功能时出现HibernateException  Found shared references to a collection
 ---
 # 问题现象
-项目采用SpringBoot框架，数据库访问采用JPA。新增功能时出现```HibernateException: Found shared references to a collection```
+项目采用SpringBoot框架，数据库访问采用JPA。新增功能时出现HibernateException: Found shared references to a collection
 具体情况是权限管理模型基于RBAC，有User，Role，Authority 三个实体以及上述三者的两两关联表，共计六张表。
-当创建一个用户时，首先通过 Role 获取 Authority List，再赋值给 User
- 的 Authority List，最后将用户写入数据库时抛出以上异常。
+当创建一个用户时，首先通过 Role 获取 Authority List，再赋值给 User的 Authority List，最后将用户写入数据库时抛出以上异常。
 数据模型如下，省略部分字段。
 
 ```java
