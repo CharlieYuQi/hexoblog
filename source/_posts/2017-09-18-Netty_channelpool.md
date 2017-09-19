@@ -17,6 +17,8 @@ for rapid development of maintainable high performance protocol servers & client
 
 ![](http://ww1.sinaimg.cn/large/e5aac86bgy1fi3zjslhvaj20d30210sm.jpg)
 
+<!-- more -->
+
 # 服务端程序
 首先我们完成服务端的代码，用户测试客户端的连接池。服务端不需要做任何特殊处理，代码如下。
 ```java

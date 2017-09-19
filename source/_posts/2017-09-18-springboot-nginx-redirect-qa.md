@@ -25,6 +25,7 @@ server {
     }
 }
 ```
+<!-- more -->
 ## 配置tomcat
 springboot配置参见[Spring Boot Reference Guide-Use behind a front-end proxy server ](https://docs.spring.io/spring-boot/docs/2.0.0.M3/reference/htmlsingle/#howto-use-tomcat-behind-a-proxy-server)
 

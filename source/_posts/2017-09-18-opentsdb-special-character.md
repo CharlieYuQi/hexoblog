@@ -41,6 +41,7 @@ public final class net.opentsdb.core.Tags
     }
   }
 ```
+<!-- more -->
 
 # 解决办法
 1. 从上述代码里可以看到Opentsdb支持自定义允许的特殊字符，*isAllowSpecialChars*，

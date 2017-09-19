@@ -28,6 +28,9 @@ logging.config=file:config/log4j2.xm
 
 # 无框架
 本节为本文重点，发现很多人离了框架就不知道该怎么写代码了。
+
+<!-- more -->
+
 ## log4j
 键值对格式
 ```
