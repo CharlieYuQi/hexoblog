@@ -2,9 +2,8 @@
 layout: post
 title: HibernateException  Found shared references to a collection
 date: 2017-09-18
-categories: blog
+categories: IT
 tags: [IT,Hibernate]
-description: 项目采用SpringBoot框架，数据库访问采用JPA。新增功能时出现HibernateException  Found shared references to a collection
 ---
 # 问题现象
 项目采用SpringBoot框架，数据库访问采用JPA。新增功能时出现HibernateException: Found shared references to a collection

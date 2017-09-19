@@ -80,7 +80,7 @@ deploy:
  type: git 
  repo: git@github.com:CharlieYuQi/CharlieYuQi.github.io.git   
  branch: master
-   message: 'Daily updated：{{now("YYYY-MM-DD HH:mm:ss")}} by CharlieYuQi'
+ message: 'Daily updated：{{now("YYYY-MM-DD HH:mm:ss")}} by CharlieYuQi'
 
 
  search:

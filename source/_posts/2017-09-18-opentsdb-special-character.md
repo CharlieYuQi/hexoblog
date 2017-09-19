@@ -2,7 +2,7 @@
 layout: post
 title: opentsdb特殊字符问题
 date: 2017-09-18
-categories: blog
+categories: IT
 tags: [IT,OpenTSDB]
 ---
 

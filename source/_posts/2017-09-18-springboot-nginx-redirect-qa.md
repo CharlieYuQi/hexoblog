@@ -2,9 +2,8 @@
 layout: post
 title: SpringBoot+Nginx+Https下redirect问题
 date: 2017-09-18
-categories: blog
+categories: IT
 tags: [IT,SpringBoot]
-description: 项目采用springboot框架，内嵌tomcat容器。前端采用nginx反向代理，当部署了https以后出现的重定向（redirect）的问题。用nginx反向代理tomcat，然后把nginx配置为https访问，并且nginx与tomcat之间配置为普通的http协议，当后台代码定义时redirect，实际是重定向到了http下的地址，导致浏览器上无法访问非https的地址。
 ---
 # 问题描述
 项目采用springboot框架，内嵌tomcat容器。前端采用nginx反向代理，当部署了https以后出现的重定向（redirect）的问题。用nginx反向代理tomcat，然后把nginx配置为https访问，并且nginx与tomcat之间配置为普通的http协议，当后台代码定义时redirect，实际是重定向到了http下的地址，导致浏览器上无法访问非https的地址。

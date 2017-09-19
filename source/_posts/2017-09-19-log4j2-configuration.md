@@ -2,9 +2,9 @@
 layout: post
 title: 自定义log4j2配置文件地址
 date: 2017-09-18
-categories: blog
+categories: IT
 tags: [IT,Log4j]
-description: 默认情况下，只要把log4j配置文件放在 CLASSPATH 环境变量所指定的目录， JAVA 启动时会制动加载。实际项目中经常需要把配置文件与打包分离，方便修改，所以需要自定义配置文件加载地址
+
 ---
 默认情况下，只要把log4j配置文件放在 CLASSPATH 环境变量所指定的目录， JAVA 启动时会制动加载。实际项目中经常需要把配置文件与打包分离，方便修改，所以需要自定义配置文件加载地址。
 # SpringMvc
