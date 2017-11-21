@@ -49,7 +49,7 @@ alias mysqladmin='/usr/local/mysql/bin/mysqladmin'
 # maven
 alias mi='mvn clean install -Dmaven.test.skip=true'
 alias mp='mvn clean package -Dmaven.test.skip=true'
-alias md='mvn clean package deploy -Dmaven.test.skip=true'
+alias mdp='mvn clean package deploy -Dmaven.test.skip=true'
 
 alias vim='sudo vim'
 
